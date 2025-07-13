@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "docsify serve docs",
-    "start": "docsify serve docs",
-    "build": "echo 'Docsify é estático, não precisa de build'",
-    "deploy": "echo 'Configure seu deploy aqui'"
+    "start": "docsify serve docs"
   },
   "keywords": [
     "linux",

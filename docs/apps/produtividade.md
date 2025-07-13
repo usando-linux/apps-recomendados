@@ -1,19 +1,19 @@
-# 🖥️ Produtividade
+# Produtividade
 
 Aplicativos essenciais para aumentar sua produtividade no Linux.
 
-## 📝 Editores de Texto
+## Editores de Texto
 
 ### Visual Studio Code
 
 **Descrição**: Editor de código leve e poderoso da Microsoft, com excelente suporte para desenvolvimento.
 
 **Características**:
-- ✅ Interface moderna e intuitiva
-- ✅ Extensões abundantes
-- ✅ Suporte nativo ao Git
-- ✅ Terminal integrado
-- ✅ Debugging avançado
+- Interface moderna e intuitiva
+- Extensões abundantes
+- Suporte nativo ao Git
+- Terminal integrado
+- Debugging avançado
 
 **Instalação**:
 
@@ -35,38 +35,13 @@ sudo pacman -S code
 ```
 
 **Configuração recomendada**:
-- Instale a extensão "Material Icon Theme"
+- Instale a extensão "GitHub Theme"
 - Configure o tema escuro
 - Ative o autosave
 
 ---
 
-### LibreOffice
-
-**Descrição**: Suite de escritório completa e gratuita, alternativa ao Microsoft Office.
-
-**Características**:
-- ✅ Compatível com formatos do Microsoft Office
-- ✅ Interface familiar
-- ✅ Suporte a múltiplos idiomas
-- ✅ Atualizações regulares
-
-**Instalação**:
-
-```bash
-# Ubuntu/Debian
-sudo apt install libreoffice
-
-# Fedora
-sudo dnf install libreoffice
-
-# Arch Linux
-sudo pacman -S libreoffice-fresh
-```
-
----
-
-## 📊 Gerenciadores de Tarefas
+## Gerenciadores de Tarefas
 
 ### Todoist
 
@@ -75,16 +50,16 @@ sudo pacman -S libreoffice-fresh
 **Instalação**:
 
 ```bash
-# Snap (recomendado)
-sudo snap install todoist
-
-# Flatpak
+# Flatpak (recomendado)
 flatpak install flathub com.todoist.Todoist
+
+# Snap (não recomendado)
+sudo snap install todoist
 ```
 
 ---
 
-## 🎨 Design e Diagramação
+## Design e Diagramação
 
 ### GIMP
 
@@ -105,7 +80,7 @@ sudo pacman -S gimp
 
 ---
 
-## 💡 Dicas de Produtividade
+## Dicas de Produtividade
 
 1. **Use atalhos de teclado**: Aprenda os atalhos dos aplicativos que você usa mais
 2. **Configure autosave**: Sempre ative o autosave nos editores
